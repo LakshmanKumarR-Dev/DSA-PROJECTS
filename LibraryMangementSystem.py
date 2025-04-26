@@ -84,13 +84,13 @@ def borrow_mess():
 def return_mess():
     id = simpledialog.askstring("Input", "Enter the Book ID to Return: ")
     if id:
-        res = lib.borrow(id)
+        res = lib.return_book(id)
         messagebox.showinfo("Return Book", res)
 
 def search_mess():
     id = simpledialog.askstring("Input", "Enter the Book ID to Search: ")
     if id:
-        res = lib.borrow(id)
+        res = lib.search(id)
         messagebox.showinfo("Search Book", res)
 
 tk.Button(root, text = "ADD BOOK", width = 20, command = add_mess).pack(pady = 10)
