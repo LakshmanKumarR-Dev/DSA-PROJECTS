@@ -44,7 +44,7 @@ class Library:
         temp = self.head
         while temp:
             if temp.id == id:
-                if temp.available:
+                if not temp.available:
                     temp.available = True
                     return f"Book {temp.name} is Returned succesfully"
                 else:
