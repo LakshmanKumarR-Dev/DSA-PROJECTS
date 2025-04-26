@@ -95,8 +95,8 @@ def search_mess():
 
 tk.Button(root, text = "ADD BOOK", width = 20, command = add_mess).pack(pady = 10)
 tk.Button(root, text = "SEARCH BOOK", width = 20, command = search_mess).pack(pady = 10)
-tk.Button(root, text = "RETURN BOOK", width = 20, command = borrow_mess).pack(pady = 10)
-tk.Button(root, text = "BORROW BOOK", width = 20, command = return_mess).pack(pady = 10)
+tk.Button(root, text = "RETURN BOOK", width = 20, command = return_mess).pack(pady = 10)
+tk.Button(root, text = "BORROW BOOK", width = 20, command = borrow_mess).pack(pady = 10)
 tk.Button(root, text = "DISPLAY BOOK", width = 20, command = display_mess).pack(pady = 10)
 
 root.mainloop()
