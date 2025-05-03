@@ -38,3 +38,22 @@ A fully functional console-based Library System that allows you to:
 - Input handled with optional GUI popups (for fun)
 
 📂 File: `LibraryManagementSystem.py`
+
+
+## 💳 Project 3: Banking Management System (Using DSA Concepts)
+
+This is a console-based **Banking Management System** built in Python. It demonstrates the use of **Data Structures** such as **Linked List** and **Stack (using `collections.deque`)** to manage customer records and transaction histories.
+
+### ✅ Features
+- Add New Customers (Stored using Linked List)
+- Deposit and Withdraw Money
+- Maintain Transaction History (using Stack with `deque`)
+- Display All Customers
+- View Global Transaction Log
+
+### 🧠 DSA Concepts Used
+- Singly Linked List: Each customer is stored as a node in a linked list.
+- Stack (`collections.deque`): Used for maintaining the transaction history (LIFO).
+- Object-Oriented Programming: Classes for Customer, Node, LinkedList, and Bank System.
+
+### 📂 Project Structure
