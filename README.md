@@ -56,4 +56,18 @@ This is a console-based **Banking Management System** built in Python. It demons
 - Stack (`collections.deque`): Used for maintaining the transaction history (LIFO).
 - Object-Oriented Programming: Classes for Customer, Node, LinkedList, and Bank System.
 
-### 📂 Project Structure
+# 📄 Plagiarism Detection System (DSA + Python)
+
+Hi Connections 👋  
+Here’s a mini project where I built a **Plagiarism Checker** using core DSA concepts like **KMP Algorithm**, **Set Operations**, and **n-gram comparison** — all implemented from scratch!
+
+### ⚙️ Features:
+- Compares two text documents
+- Calculates Jaccard Similarity
+- Uses KMP for pattern matching
+- Shows similarity score and verdict
+
+### 🛠️ DSA Used:
+- Hashing (Set)
+- KMP Algorithm
+- String Preprocessing
